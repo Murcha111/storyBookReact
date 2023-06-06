@@ -48,12 +48,12 @@ export default {
   argTypes: {
     color: {
       options: [
-        "primary",
-        "secondary",
-        "customColor",
         "yellow",
         "green",
         "orange",
+        "primary",
+        "secondary",
+        "customColor",
       ],
       control: { type: "radio" },
     },
